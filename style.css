@@ -1,0 +1,67 @@
+:root {
+ /* Brand Theme Colors */
+ --color-primary:        #a855f7;
+ --color-primary-glow:   rgba(168, 85, 247, 0.25);
+ --color-secondary:      #ec4899;
+ --color-secondary-glow: rgba(236, 72, 153, 0.25);
+ --color-accent:         #06b6d4;
+
+ /* Base & Layout Backgrounds */
+ --color-bg-base:        #060709;
+ --color-bg-section:     #0c0d14;
+ --color-bg-footer:      #161922;
+ --color-surface:        #11131a;
+ --color-surface-muted:  #1e212f;
+
+ /* Borders */
+ --color-border:         rgba(255, 255, 255, 0.07);
+
+ /* Typography Text Colors */
+ --white:                #ffffff;
+ --color-text-body:      #cbd5e1;
+ --color-text-muted:     #9fa6b2;
+  --font-display: 'Space Grotesk', sans-serif;
+ --font-body:    'Plus Jakarta Sans', sans-serif;
+ --radius-sm:  6px;
+ --radius-md:  12px;
+ --radius-lg:  20px;
+ --shadow-sm:  0 4px 12px rgba(0,0,0,0.5);
+ --shadow-md:  0 12px 36px rgba(0,0,0,0.7);
+ --shadow-lg:  0 24px 64px rgba(0,0,0,0.9);
+  --gradient-accent: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+ --gradient-secondary: linear-gradient(135deg, var(--color-accent) 0%, #3b82f6 100%);
+}
+
+/* TYPOGRAPHY SCALE */
+/*-------------------------------------------------------------
+h1, h2, h3, h4, h5, h6 {
+ font-family: var(--font-display);
+ font-weight: 700;
+ line-height: 1.1;
+ letter-spacing: -0.02em;
+ color: var(--white);
+}
+
+h1 { font-size: clamp(2.4rem, 6vw, 5rem); }
+h2 { font-size: clamp(1.8rem, 4vw, 3rem); }
+h3 { font-size: clamp(1.2rem, 2.5vw, 1.75rem); }
+h4 { font-size: 1.125rem; font-weight: 600; }
+p  { font-size: 1rem; line-height: 1.7; color: var(--color-text-muted); }
+
+small { font-size: 0.8rem; color: var(--color-text-muted); }
+strong { color: var(--white); font-weight: 600; }
+em { color: var(--color-text-body); }
+
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700;800&display=swap');
+
+
+
+
+
+
+
+
+body{
+  background-color: var(--color-bg-base);
+}
