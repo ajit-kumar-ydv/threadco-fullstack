@@ -64,4 +64,5 @@ em { color: var(--color-text-body); }
 
 body{
   background-color: var(--color-bg-base);
+  color: var(--color-text-body);
 }
