@@ -1011,6 +1011,7 @@ nav[aria-label="breadcrumb"] a:hover{
 
 #product-details dl div {
     display: flex;
+    flex-direction: row;
     border-top: 1px solid var(--color-border);
     width: 100%;
     max-width: 800px;
@@ -1283,12 +1284,12 @@ nav[aria-label="breadcrumb"] a:hover{
     color: var(--color-text-muted);
 }
 
-/*  */
-/* .our-details { */
-    /* position: sticky; */
-    /* top: 100px; */
-/* } */
 
+.our-details {
+    position: sticky;
+    top: 100px;
+}
+/*  */
 
 .our-details address {
     background-color: var(--color-surface);
@@ -1366,6 +1367,10 @@ nav[aria-label="breadcrumb"] a:hover{
     padding: 15px 25px;
     font-family: var(--font-body);
     background-color: var(--color-surface);
+    
+}
+.our-details div:last-of-type ul li a{
+  color: white;
 }
 
 

@@ -30,118 +30,120 @@
                 humans, real replies - within 24 hours.</p>
         </section>
 
+        <div class="details">
+            <section class="send-us-message">
+                <h2>Send Us a Message</h2>
 
-        <section class="send-us-message">
-            <h2>Send Us a Message</h2>
+                <form action="">
 
-            <form action="">
+                    <fieldset>
+                        <legend>Your Info</legend>
 
-                <fieldset>
-                    <legend>Your Info</legend>
+                        <label for="fullname">Full Name:</label>
+                        <input type="text" id="fullname" name="fullname" placeholder="Ajit Kumar" required minlength="2"
+                            maxlength="60">
+                        <br><br>
 
-                    <label for="fullname">Full Name:</label>
-                    <input type="text" id="fullname" name="fullname" placeholder="Ajit Kumar" required minlength="2"
-                        maxlength="60">
-                    <br><br>
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" placeholder="ajit@example.com" required>
+                        <br><br>
 
-                    <label for="email">Email Address:</label>
-                    <input type="email" id="email" name="email" placeholder="ajit@example.com" required>
-                    <br><br>
+                        <label for="phone">Phone Number (optional):</label>
+                        <input type="tel" id="phone" name="phone" placeholder="9876543210">
+                        <br>
+                        <small>10-digit Indian mobile number</small>
+                    </fieldset>
 
-                    <label for="phone">Phone Number (optional):</label>
-                    <input type="tel" id="phone" name="phone" placeholder="9876543210">
                     <br>
-                    <small>10-digit Indian mobile number</small>
-                </fieldset>
 
-                <br>
+                    <fieldset>
+                        <legend>Your Message</legend>
 
-                <fieldset>
-                    <legend>Your Message</legend>
+                        <label for="subject">Subject:</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">-- Select a Topic --</option>
+                            <option value="order-issue">Order Issue</option>
+                            <option value="return-refund">Return / Refund</option>
+                            <option value="collaboration">Collaboration / Partnership</option>
+                            <option value="wholesale">Wholesale Enquiry</option>
+                            <option value="general">General Query</option>
+                        </select>
+                        <br><br>
 
-                    <label for="subject">Subject:</label>
-                    <select id="subject" name="subject" required>
-                        <option value="">-- Select a Topic --</option>
-                        <option value="order-issue">Order Issue</option>
-                        <option value="return-refund">Return / Refund</option>
-                        <option value="collaboration">Collaboration / Partnership</option>
-                        <option value="wholesale">Wholesale Enquiry</option>
-                        <option value="general">General Query</option>
-                    </select>
-                    <br><br>
+                        <label for="message">Message:</label>
+                        <br>
+                        <textarea id="message" name="message" rows="6" cols="50"
+                            placeholder="Tell us what is on your mind..." required minlength="20"></textarea>
+                        <br><br>
 
-                    <label for="message">Message:</label>
+                        <label for="attachment">Attach a File (optional):</label>
+                        <input type="file" id="attachment" name="attachment">
+                        <small>Max file size: 5MB. Accepted: JPG, PNG, PDF</small>
+
+                        <div class="consent">
+                            <input type="checkbox" id="consent" name="consent" required>
+                            <label for="consent">
+                                I agree to be contacted by ThreadCo regarding my enquiry.
+                                I have read the <a href="#">Privacy Policy</a>.
+                            </label>
+                        </div>
+                    </fieldset>
+
                     <br>
-                    <textarea id="message" name="message" rows="6" cols="50"
-                        placeholder="Tell us what is on your mind..." required minlength="20"></textarea>
-                    <br><br>
+                    <div class="contact-btns">
+                        <button type="submit">Send Message</button>
+                        <button type="reset">Clear Form</button>
+                    </div>
 
-                    <label for="attachment">Attach a File (optional):</label>
-                    <input type="file" id="attachment" name="attachment">
+                </form>
+            </section>
+
+
+            <section class="our-details">
+                <h2>Our Details</h2>
+
+                <address>
+                    <strong>ThreadCo HQ</strong> <br>
+                    42, Street Level, Hauz Khas Village <br>
+                    New Delhi — 110016 <br>
+                    India
+                    <br><br>
+                    <a href="mailto:hello@threadco.in">hello@threadco.in</a>
                     <br>
-                    <small>Max file size: 5MB. Accepted: JPG, PNG, PDF</small>
-                    <br><br>
+                    <a href="tel:+911234567890">+91 12345 67890</a>
+                </address>
+                <div>
+                <h3>Store Hours</h3>
 
-                    <input type="checkbox" id="consent" name="consent" required>
-                    <label for="consent">
-                        I agree to be contacted by ThreadCo regarding my enquiry.
-                        I have read the <a href="#">Privacy Policy</a>.
-                    </label>
-                </fieldset>
-
-                <br>
-               <div class="contact-btns">
-                <button type="submit">Send Message</button>
-                <button type="reset">Clear Form</button>
+                <table>
+                    <tr>
+                        <th>Day</th>
+                        <th>Hours</th>
+                    </tr>
+                    <tr>
+                        <td>Monday — Friday</td>
+                        <td>10:00 AM — 7:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday</td>
+                        <td>11:00 AM — 5:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Sunday</td>
+                        <td>Closed</td>
+                    </tr>
+                </table>
                 </div>
-
-            </form>
-        </section>
-
-
-        <section class="our-details">
-            <h2>Our Details</h2>
-
-            <address>
-                <strong>ThreadCo HQ</strong> <br>
-                42, Street Level, Hauz Khas Village <br>
-                New Delhi — 110016 <br>
-                India
-                <br><br>
-                <a href="mailto:hello@threadco.in">hello@threadco.in</a>
-                <br>
-                <a href="tel:+911234567890">+91 12345 67890</a>
-            </address>
-
-            <h3>Store Hours</h3>
-
-
-            <table>
-                <tr>
-                    <th>Day</th>
-                    <th>Hours</th>
-                </tr>
-                <tr>
-                    <td>Monday — Friday</td>
-                    <td>10:00 AM — 7:00 PM</td>
-                </tr>
-                <tr>
-                    <td>Saturday</td>
-                    <td>11:00 AM — 5:00 PM</td>
-                </tr>
-                <tr>
-                    <td>Sunday</td>
-                    <td>Closed</td>
-                </tr>
-            </table>
-
-            <h3>Follow Us</h3>
-            <ul>
-                <li><a href="https://instagram.com" target="_blank">Instagram &mdash; @threadco.in</a></li>
-                <li><a href="https://twitter.com" target="_blank">Twitter &mdash; @threadco</a></li>
-                <li><a href="https://youtube.com" target="_blank">YouTube &mdash; ThreadCo</a></li>
-            </ul>
-        </section>
+                <div>
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="https://instagram.com" target="_blank">Instagram &mdash; @threadco.in</a></li>
+                    <li><a href="https://twitter.com" target="_blank">Twitter &mdash; @threadco</a></li>
+                    <li><a href="https://youtube.com" target="_blank">YouTube &mdash; ThreadCo</a></li>
+                </ul>
+                </div>
+            </section>
+        </div>
 
 
         <section class="common-questions">
